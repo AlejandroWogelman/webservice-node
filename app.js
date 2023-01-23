@@ -1,11 +1,3 @@
-var Parse = require("parse/node");
-
-Parse.initialize(
-  "H96mgi5Kqn10qfuFu8b3K270H4ybP8apSHOVN4qQ",
-  "wMagAOmt1cPJ0aLb3LhCw3zWQlo0co9nYeUa7lgJ"
-); //PASTE HERE YOUR Back4App APPLICATION ID AND YOUR JavaScript KEY
-Parse.serverURL = "https://parseapi.back4app.com/";
-
 require("dotenv").config();
 const express = require("express");
 const hbs = require("hbs");
